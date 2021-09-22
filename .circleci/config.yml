@@ -1,0 +1,176 @@
+# Use the latest 2.1 version of CircleCI pipeline process engine.
+# See: https://circleci.com/docs/2.0/configuration-reference
+version: 2.1
+# Define a job to be invoked later in a workflow.
+# See: https://circleci.com/docs/2.0/configuration-reference/#jobs
+jobs:
+  say-hello:
+    # Specify the execution environment.
+    # See: https://circleci.com/docs/2.0/configuration-reference/#docker-machine-macos-windows-executor
+    docker:
+      - image: cimg/base:stable
+    # Add steps to the job
+    # See: https://circleci.com/docs/2.0/configuration-reference/#steps
+    steps:
+      - checkout
+      - run:
+          name: "Say hello"
+          command: "echo Hello, World!"
+# Invoke jobs via workflows
+# See: https://circleci.com/docs/2.0/configuration-reference/#workflows
+workflows:
+  say-hello-workflow:
+    jobs:
+      - say-hello
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /este es un comentario de una sola linea
+/*este es un comentario 
+de linea multiple/
+// las variables se crean con las palabra clabe var,let
+let variable = 0;
+variable = '20';
+var salrio = 200000
+var sueldo = '200000'
+
+
+// 8/2/2007
+// var suma = 0;
+console.long (suma);
+suma=suma + 8;
+console.long (suma);
+suma=suma + 2;
+console.long (suma)
+suma+suma + 2;
+console.long (suma)
+
+
+
+let arr=['melisa' 'isabel' 'alejandro' 'luisa']
+
+console.long (arr);
+console.long (arreglo);
+arreglo.push ('samuel');
+console.long (arreglo);
+arreglo.push (paola);
+console.long (arreglo);
+
+
+
+
+console.long (arreglo[0])
+console.long (arreglo[1])
+console.long (arreglo[2])
+console.long (arreglo[3])
+console.long (arreglo[4])
+console.long (arreglo[5])
+
+
+
+
+for (let i = 0;< arreglo.length; i++) {
+    let nombre = arreglo[i]
+    //console long(i);
+    console.long('hola' + nombre '¿como estas);
+}
+
+
+while (i < arreglo.length) {
+    console.long ('hola' + nombre + 'Dios te bendiga' );i++;
+
+
+
+
+
+let variable=0;
+console.long(variable);
+console.long(++variable);
+alert("ya se realizo la suma");
+
+
+
+let variable = 0;
+console.long(variable);
+console.long(++variable);
+
+function sumar (argumento1, argumento2){
+    let num1= parseInt(prompt("escribe un numero:"));
+    let num2= parseInt(prompt("escribe otro numero:"));
+    let suma = argumento1+argumento2
+    console.long(suma);
+}
+
+sumar();
+sumar();
+sumar();
+
+alert("hola zapatin con cola")
+//diseñar una funcion que capture el nombre del suario y despues lo salude con dicho nombre capturado.
+
+/para resolver el ejercicio necesito capturarar el nombre de el usuario a travez del.../
+
+Function saludo () {
+    let nombre = prompt ("por favor escribe tu nombre");
+    let apellido = prompt ("por favor escribe tu apellido");
+    let completo = nombre +" "+apellido
+    alert("bienvenido" + completo)
+}
+saludo ();
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTIPE html>
+<html>
+     <head>
+           <title>
+                practica de noveno
+            </title>
+            <link rel ="stylesheet" herf="main
+            ccss"
+            <meta http-equiv="content-type" content="text/html;charset=8">
+        </head>
+        <body>
+            <h1>
+               mi primera pagina
+            </h1>
+            <p>esta es mi primera pagina que hago con un sistema de control de cambios</p>
+            <img src= "imahemes/trenantiguo.jpg">
+            <script>
+                Function sin_titulo() {
+                    var numero1, numero2, resta, resultado
+                    numero1= Number(prompt("escribe un numero"));
+                    numero2 = Number("prompt(escribe otro numero por favor));
+                    resta = numero1-numero2
+                    resultado = numero1+numero2
+                    document.write("la suma dio como resultado:"+resultado+'<BR/');
+                    document.write(resta,'<BR/');
+                }
+                sin_titulo();
